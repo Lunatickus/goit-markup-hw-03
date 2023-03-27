@@ -1,0 +1,154 @@
+:root {
+    --primary-text-color:  #434455;
+    --title-text-color: #2E2F42;
+    --accent-color:  #404BBF;
+    --primary-white-color: #FFFFFF;
+    --iris-color: #4D5AE5;
+    --cloud-color: #F4F4FD;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color)
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo .studio {
+    color: var(--title-text-color);
+}
+
+.site-nav .list .link {
+    font-weight: 500;
+    color: var(--title-text-color);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-address {
+    font-style: normal;
+}
+
+.site-address .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.site-address .link:hover,
+.site-address .link:focus {
+    color: var(--accent-color);
+}
+
+.section-one {
+    background-color: var(--title-text-color);
+}
+
+.section-one .header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--primary-white-color);
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.section-one .button, .portfolio .button-one {
+    background-color: var(--iris-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.section-one .button:hover, .portfolio .button:hover,
+.section-one .button:focus, .portfolio .button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.section-two .title, .section-four .title, .portfolio .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.section-four {
+    background-color: var(--cloud-color);
+}
+
+.section-four .element-li {
+    background-color: var(--primary-white-color);
+}
+
+.section-three .head, .section-four .head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.footer {
+    background-color: var(--title-text-color);
+}
+
+.footer .text, .footer .studio {
+    color: var(--cloud-color)
+}
+
+
+.portfolio .button {
+    background-color: var(--cloud-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-color);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.portfolio .link {
+    text-decoration: none;
+}
